@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+
+.caixa-0 {
+    transition: opacity 1s;
+}
+
+img {
+   
+    width: 100%;
+}
+
+.links {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 680px;
+    cursor: pointer;
+}
+
+ .button-email {
+    background: rgb(228, 7, 7);
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+a {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #f708f7;
+    font-size: 30px;
+}
+
+.caixa-01 {
+    margin-top: 10px;
+    display: inline;
+}
+
+.caixa-02 {
+    display: inline;
+}
+
+.coluna-1 {
+    display: inline-block;
+    position: relative;
+}
+
+li {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.coluna-2 {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+.esmalte {
+    width: 300px;
+    margin-left: 30px;
+}
+
+form {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 367px;
+    width: 355px;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700px;
+    font-size: 20px;
+    width: 330px;
+    height: 0,5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+    Width: 160px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 180px;
+    width: 350px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.enviar {
+    background: #40BB15;
+}
+
+.voltar {
+    background: #828282;
+}
