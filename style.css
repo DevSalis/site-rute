@@ -8,8 +8,52 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
-   
 }
+
+header {
+    background-image: url("./assets/Picsart_23-05-15_01-37-58-532.png");
+    height: 35%;
+    margin-left: -20px;
+}
+
+nav {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 57%;
+}
+
+a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}
+
+a:hover {
+    opacity: 0.9;
+    color: rgb(230, 16, 16);
+  }
+
+.button-email {
+    padding: 7px;
+    font-size: 15px;
+    background-color: rgb(241, 7, 210);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: -2%;
+    margin-left: 88%;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-email:hover {
+    opacity: 0.5;
+    
+  }
 
 h2 {
     display: none;
