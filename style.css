@@ -11,29 +11,35 @@ body {
 }
 
 header {
-    background-image: url("./assets/Picsart_23-05-15_01-37-58-532.png");
-    height: 35%;
-    margin-left: -20px;
+    background-image: url("./assets/background-header.jpg");
+    padding: 10px;
+    display: flex;
+}
+
+#slogan {
+    width: 420px;
 }
 
 nav {
     display: flex;
-    margin-top: 8%;
-    margin-left: 57%;
+    margin-left: 35px;
+    margin-top: 35px;
 }
 
 a {
-    margin-right: 20px;
+    margin-right: 60px;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
     color: brown;
+    text-align: center;
+    cursor: pointer;
 }
 
 a:hover {
     opacity: 0.9;
     color: rgb(230, 16, 16);
-  }
+}
 
 .button-email {
     padding: 7px;
@@ -43,22 +49,29 @@ a:hover {
     border: none;
     border-radius: 5px;
     height: 35px;
-    margin-top: -2%;
-    margin-left: 88%;
     display: flex;
     font-weight: bold;
     cursor: pointer;
+    align-items: center;
+    margin-top: 35px;
 }
 
 .button-email:hover {
     opacity: 0.5;
-    
-  }
-
-h2 {
-    display: none;
 }
 
-.quem-somos {
-    display: none;
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.box-1 {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.box-2 {
+    display: flex;
+    margin: auto;
 }
