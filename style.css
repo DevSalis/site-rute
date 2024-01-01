@@ -33,14 +33,13 @@ header {
 nav {
     display: flex;
     margin-left: 35px;
-
     align-items: center;
 }
 
 .linksMenu {
     display: flex;
-    margin-right: 40px;
-    font-size: 20px;
+    margin-right: 55px;
+    font-size: 25px;
     text-decoration: none;
     font-weight: bold;
     color: brown;
@@ -106,13 +105,30 @@ main {
 
 .box-1 {
     display: flex;
-    width: 60%;
+    width: 40%;
     flex-direction: column;
+    position: fixed;
 }
 
 .box-2 {
     display: flex;
-    margin: auto;
+    width: auto;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+    
+}
+
+.carrossel-vertical {
+    display: flex; 
+    margin-left: 100px;
+}
+
+.esmalte {
+    width: 330px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
 }
 
 .h1-home {
@@ -125,7 +141,18 @@ main {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 48px;
+    color: rgb(226, 43, 144);
+    margin-top: 0%;
+    margin-left: 10px;
+    text-shadow: 2px 2px 4px #7a4848;
+}
+
+.list-work {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 35px;
+    color: #7a4848;
 }
 
 
