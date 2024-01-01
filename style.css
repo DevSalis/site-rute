@@ -91,7 +91,6 @@ main {
 }
 
 #img-background-home {
-
     height: 546px;
 }
 
@@ -103,11 +102,19 @@ main {
     padding: 0;
 }
 
+#main-serviços {
+    display: flex;
+    padding: 20px;
+    margin-top: 130px;
+    background-image: linear-gradient(to right,rgb(228, 212, 158), rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
 .box-1 {
     display: flex;
     width: 40%;
     flex-direction: column;
     position: fixed;
+    margin: 0%;
 }
 
 .box-2 {
