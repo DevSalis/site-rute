@@ -170,14 +170,14 @@ footer {
     width: 100%;
     align-items: center;
     position: fixed;
-    margin-left: 0px;
-
+   
+    text-align: center;
 }
 
 .footer-paragrafo {
     color: rgb(245, 17, 17);
     font-size: 15px;
-    margin: auto;
+    margin-left: 25%;
     text-align: center;
 }
 

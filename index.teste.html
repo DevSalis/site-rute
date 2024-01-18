@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+    <title>Salão de Unhas em Gel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        #album {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carousel {
+            display: flex;
+        }
+
+        .img-carousel {
+            width: 150px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Salão de Unhas em Gel</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bem-vindo ao nosso Salão de Unhas em Gel</h2>
+        <p>Oferecemos serviços de alta qualidade para realçar a beleza das suas unhas.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Unhas em Gel</li>
+            <li>Manicure e Pedicure</li>
+            <li>Nail Art Personalizada</li>
+            <li>Alongamento de Unhas</li>
+        </ul>
+    </section>
+
+    <section id="album">
+        <h2>Portfólio</h2>
+        <div class="carousel">
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-1.png" alt="Trabalho 1"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-2.png" alt="Trabalho 2"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-3.png" alt="Trabalho 3"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-1.png" alt="Trabalho 1"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-2.png" alt="Trabalho 2"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-3.png" alt="Trabalho 3"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-1.png" alt="Trabalho 1"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-2.png" alt="Trabalho 2"></div>
+            <div><img class="img-carousel" src="./assets/portf%C3%B3lio-3.png" alt="Trabalho 3"></div>
+        </div>
+    </section>
+
+
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Agende sua sessão hoje mesmo!</p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Salão de Unhas em Gel. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.carousel').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                
+                ]
+            });
+        });
+    </script>
+</body>
+
+
+</html>
