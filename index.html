@@ -3,47 +3,114 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polly-ND-Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
-    <header id="header-home">
-        <img id="slogan" src="./assets/sloga-rute-site.png" alt="slogan-foto-rute">
+    <div class="menu">
+
+        <img class="logo-menu" src="./assets/logotipo-rute.png" alt="logo-rute">
+
         <nav>
-            <a class="linksMenu" href="./index.servicos.html">SERVIÇOS</a>
-            <a class="linksMenu" href="./index.QuemSomo.html">QUEM SOMOS</a>
-            <a class="linksMenu" href="./index.agenda.html">AGENDAMENTO</a>
+            <ul>
+                <li><a href="#home"><img class="icones" src="./assets/home.png" alt="icone-home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#about">Quem somos</a></li>
+                <li><a href="#space">Nosso espaço</a></li>
+                <li><a href="#contact">Como chegar</a></li>
+                <li><a href="#appointment">Agendamento</a></li>
+            </ul>
+
+            <button>Fale conosco</button>
         </nav>
 
-        <button onclick="abrir()" class="button-email">FALE CONOSCO</button>
+        <img class="rute" src="./assets/rute3x4.png" alt="rute">
+    </div>
 
+    <header>
+        <div class="logo-container">
+            <h1>Salão de Manicure</h1>
+        </div>
     </header>
 
-    <img id="img-background-home" src="./assets/backgound-home esquerda.png" alt="img-mao-rosa" />
-    
-    <main id="main-home">
-
-        <h1 class="h1-home">Uma mulher<br>de unhas feitas,<br>não quer querra<br>com ninguém</h1>
-       
-        <footer>
-
-            <p class="footer-paragrafo"><p>&copy; 2024 Salão de Unhas em Gel. Todos os direitos reservados. | poly_rt@gmail.com - (81) 9-8722-1095<br>Site desenvolvido com as linguagens HTML, CSS e JS - By silasfelipe.dev@outlook.com</p>
-        </p>
-            <a rel="noopener"
-                href="https://api.whatsapp.com/send?phone=+5581987221095&text=Olá, Meu nome é Rute, sua nails disign. Vejo que você conheceu o nosso site, essa é uma msg padrão de boas vindas, fique a vontade para substituí-la por sua duvida ou sugestão, obg."
-                target="_blank"><img class="whatsapp" src="./assets/img-logo-whatsapp.png" alt="logo-whatsapp"
-                    width="45px"></a>
-        </footer>
+    <main id="home">
+        <h2>Realçando a beleza das unhas, elevando a autoestima feminina.</h2>
+        <img src="main-image.jpg" alt="Imagem principal">
     </main>
 
-</body>
+    <section id="services" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="carousel-container">
+            <div class="service-carousel">
+                <div>
+                    <ul>
+                        <li>Serviço 1</li>
+                        <li>Serviço 2</li>
+                    </ul>
+                    <img src="./assets/esmalte.png" alt="Imagem do Serviço 1">
+                </div>
+                <div>
+                    <ul>
+                        <li>Serviço 3</li>
+                        <li>Serviço 4</li>
+                    </ul>
+                    <img src="service2.jpg" alt="Imagem do Serviço 2">
+                </div>
+                <div>
+                    <ul>
+                        <li>Serviço 5</li>
+                        <li>Serviço 6</li>
+                    </ul>
+                    <img src="service3.jpg" alt="Imagem do Serviço 3">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="scripts.js"></script>
+    <section id="portfolio" class="portfolio">
+        <h2>Nosso Portfólio</h2>
+        <div class="portfolio-carousel">
+            <img class="imgs-portfolio" src="./assets/portfólio-1.png" alt="Projeto 1">
+            <img class="imgs-portfolio" src="./assets/portfólio-2.png" alt="Projeto 2">
+            <img class="imgs-portfolio" src="./assets/portfólio-3.png" alt="Projeto 3">
+            <img class="imgs-portfolio" src="./assets/portfólio-04.png" alt="Projeto 4">
+            <img class="imgs-portfolio" src="./assets/portfólio-5.png" alt="Projeto 5">
+            <img class="imgs-portfolio" src="./assets/portfólio-6.png" alt="Projeto 6">
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div>
+            <h2>Quem somos</h2>
+            <p>Descrição sobre o salão e seus valores.</p>
+        </div>
+        <div>
+            <img src="about-us-image.jpg" alt="Imagem sobre nós">
+        </div>
+    </section>
+
+    <section id="space" class="our-space">
+    </section>
+
+    <section id="contact" class="how-to-get">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <p>Endereço: Rua XYZ, Bairro ABC</p>
+        <a href="https://maps.google.com">Ver no Google Maps</a>
+    </section>
+
+    <section id="appointment">
+    </section>
+
+    <footer>
+        <a href="#home">Voltar ao Topo</a>
+    </footer>
+</body>
 
 </html>
