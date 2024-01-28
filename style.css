@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
+
 }
 
 body {
@@ -67,22 +68,35 @@ header {
 }
 
 h1 {
-    color: white;
+    
     text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 0), rgb(255, 5, 5));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 main {
     margin-left: 14%;
-    box-sizing: border-box;
     display: flex;
-    text-align: left;
 }
 
 h2 {
-    color: #333;
-    font-size: 50px;
-    margin-top: 90px;
-    margin-left: 50px;
+    color: #f10bb8;
+    font-size: 38px;
+    font-weight: 200;
+    margin-left: 40px;
+    font-family: 'Dancing Script';
+    margin-top: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.img-home {
+    width: 150%;
+    margin-top: 50px;
 }
 
 section {
@@ -109,10 +123,7 @@ section {
     margin-left: 0%;
 }
 
-.img-home {
-    width: 200%;
-    margin-top: 50px;
-}
+
 
 footer {
     position: fixed;
