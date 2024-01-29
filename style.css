@@ -18,7 +18,7 @@ body {
     position: fixed;
     height: 100%;
     width: 14%;
-    background-color: #f08;
+    background-color: rgb(247, 127, 191);
     top: 0;
     left: 0;
     z-index: 1;
@@ -26,20 +26,42 @@ body {
 
 nav {
     display: flex;
-    flex-direction: column;
     margin-top: 20px
 }
+
+.all-icones {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-icones img {
+   margin-bottom: 6px;
+   margin-left: 15px;
+}
+
+
+
+li {
+    list-style-type: none;
+  }
+  
 
 nav a {
     text-decoration: none;
     color: white;
     display: flex;
     text-align: left;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
     align-items: center;
     font-size: 15px;
+    font-weight: 600;
 }
+
+a:hover {
+    color: rgba(82, 162, 216, 0.993);
+  }
+  
 
 button {
     width: 80%;
@@ -51,6 +73,7 @@ button {
     margin: auto;
     border-radius: 4px;
     margin-top: 17px;
+    margin-left: 15px;
 }
 
 header {
@@ -81,6 +104,26 @@ main {
     display: flex;
 }
 
+#myJob {
+    display: inline-block;
+}
+
+.box-job {
+    display: flex;
+}
+
+.job-1 {
+    background-color: rgb(0, 3, 204);
+}
+
+.job-2 {
+    background-color: rgb(0, 204, 61);
+}
+
+.job-3 {
+    background-color: rgb(204, 116, 0);
+}
+
 h2 {
     color: #f10bb8;
     font-size: 38px;
@@ -92,19 +135,9 @@ h2 {
     text-align: center;
 }
 
-
-
 .img-home {
     width: 150%;
     margin-top: 50px;
-}
-
-section {
-    width: 80%;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-top: 10%;
-    margin-left: 20%;
 }
 
 .logo-menu {
@@ -114,6 +147,21 @@ section {
 
 .icones {
     width: 20px;
+    margin-right: 5px;
+}
+
+.icones-2 {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.icones-3 {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.icones-4 {
+    width: 18px;
     margin-right: 5px;
 }
 
