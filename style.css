@@ -35,16 +35,16 @@ nav {
 }
 
 .all-icones img {
-   margin-bottom: 6px;
-   margin-left: 15px;
+    margin-bottom: 6px;
+    margin-left: 15px;
 }
 
 
 
 li {
     list-style-type: none;
-  }
-  
+}
+
 
 nav a {
     text-decoration: none;
@@ -60,8 +60,8 @@ nav a {
 
 a:hover {
     color: rgba(82, 162, 216, 0.993);
-  }
-  
+}
+
 
 button {
     width: 80%;
@@ -86,12 +86,12 @@ header {
     box-sizing: border-box;
     display: inline-block;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 2;
     padding: 10px;
 }
 
 h1 {
-    
+
     text-align: center;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 0), rgb(255, 5, 5));
     background-clip: text;
@@ -103,6 +103,30 @@ main {
     margin-left: 14%;
     display: flex;
 }
+
+#main-1 {
+    position: relative;
+
+}
+
+#main-2 .img-home {
+    width: 50%;  /* Adicione esta linha */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    margin-top: 4%;
+    z-index: 1;  /* Adicione esta linha para garantir que as imagens se sobreponham */
+}
+
+.img-home:first-child {
+    opacity: 2;
+}
+
+.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 #myJob {
     display: inline-block;
@@ -135,11 +159,6 @@ h2 {
     text-align: center;
 }
 
-.img-home {
-    width: 150%;
-    margin-top: 50px;
-}
-
 .logo-menu {
     width: 150px;
     margin-left: 18px;
@@ -170,8 +189,6 @@ h2 {
     display: flex;
     margin-left: 0%;
 }
-
-
 
 footer {
     position: fixed;
