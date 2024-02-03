@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
-
 }
 
 body {
     height: 100vh;
     overflow-x: hidden;
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -40,12 +38,9 @@ nav {
     margin-left: 15px;
 }
 
-
-
 li {
     list-style-type: none;
 }
-
 
 nav a {
     text-decoration: none;
@@ -99,25 +94,24 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-
 main {
     margin-left: 14%;
     display: flex;
+
 }
 
 #main-1 {
     position: relative;
-
 }
 
 #main-2 .img-home {
     width: 50%;
     height: 90%;
-    position: absolute;
     opacity: 0;
     transition: opacity 2s ease-in-out;
     margin-top: 4%;
     z-index: 1;
+    position: absolute;
 }
 
 .img-home:first-child {
@@ -129,26 +123,50 @@ main {
     transform: translateX(0);
 }
 
-
 #myJob {
-    display: inline-block;
-}
-
-.box-job {
+    background-color: bisque;
     display: flex;
+    flex-direction: column;
 }
 
-.job-1 {
+#ourService {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-job-master {
+    display: flex;
+    margin-left: 14%;
+}
+
+.valores-master {
+    display: flex;
+    flex-direction: column;
+}
+
+#job-0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxs-job {
+    width: 30%;
+}
+
+#job-1 {
     background-color: rgb(0, 3, 204);
 }
 
-.job-2 {
+#job-2 {
     background-color: rgb(0, 204, 61);
 }
 
-.job-3 {
-    background-color: rgb(204, 116, 0);
+#img-service {
+    width: 30%;
+    height: 50%;
 }
+
 
 h2 {
     color: #f10bb8;
@@ -158,6 +176,7 @@ h2 {
     font-family: 'Dancing Script';
     margin-top: 60%;
     margin-right: 10px;
+    margin-bottom: 51%;
     text-align: center;
 }
 
@@ -167,8 +186,8 @@ h2 {
 }
 
 .icones {
-    width: 23px;
     margin-right: 5px;
+    width: 23px;
 }
 
 .rute {
