@@ -97,11 +97,11 @@ h1 {
 main {
     margin-left: 14%;
     display: flex;
-
 }
 
 #main-1 {
     position: relative;
+    margin-bottom: 15%;
 }
 
 #main-2 .img-home {
@@ -124,20 +124,30 @@ main {
 }
 
 #myJob {
-    background-color: bisque;
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
+#cabine {
+    margin-left: 14%;
+    opacity: 0.5;
+}
+
 #ourService {
-    margin-top: 15px;
-    margin-bottom: 40px;
+    position: absolute;
     text-align: center;
+    left: 55%;
+    transform: translateX(-50%);
+    margin-top: 25%;
+    font-size: 80px;
 }
 
 .box-job-master {
     display: flex;
     margin-left: 14%;
+    margin-top: 40%;
+    position: absolute;
 }
 
 .valores-master {
@@ -147,7 +157,6 @@ main {
 
 #job-0 {
     display: flex;
-    flex-direction: column;
 }
 
 .boxs-job {
@@ -161,12 +170,6 @@ main {
 #job-2 {
     background-color: rgb(0, 204, 61);
 }
-
-#img-service {
-    width: 30%;
-    height: 50%;
-}
-
 
 h2 {
     color: #f10bb8;
