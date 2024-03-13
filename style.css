@@ -72,117 +72,6 @@ button {
     margin-left: 15px;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 14%;
-    width: 86%;
-    height: 10%;
-    background: linear-gradient(to bottom, #f08, #90c);
-    box-sizing: border-box;
-    display: inline-block;
-    justify-content: space-between;
-    z-index: 2;
-    padding: 10px;
-}
-
-h1 {
-
-    text-align: center;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 0), rgb(255, 5, 5));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-main {
-    margin-left: 14%;
-    display: flex;
-}
-
-#main-1 {
-    position: relative;
-    margin-bottom: 15%;
-}
-
-#main-2 .img-home {
-    width: 50%;
-    height: 90%;
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-    margin-top: 4%;
-    z-index: 1;
-    position: absolute;
-}
-
-.img-home:first-child {
-    opacity: 2;
-}
-
-.active {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-#myJob {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-#cabine {
-    margin-left: 14%;
-    opacity: 0.5;
-}
-
-#ourService {
-    position: absolute;
-    text-align: center;
-    left: 55%;
-    transform: translateX(-50%);
-    margin-top: 25%;
-    font-size: 80px;
-}
-
-.box-job-master {
-    display: flex;
-    margin-left: 14%;
-    margin-top: 40%;
-    position: absolute;
-}
-
-.valores-master {
-    display: flex;
-    flex-direction: column;
-}
-
-#job-0 {
-    display: flex;
-}
-
-.boxs-job {
-    width: 30%;
-}
-
-#job-1 {
-    background-color: rgb(0, 3, 204);
-}
-
-#job-2 {
-    background-color: rgb(0, 204, 61);
-}
-
-h2 {
-    color: #f10bb8;
-    font-size: 38px;
-    font-weight: 200;
-    margin-left: 30px;
-    font-family: 'Dancing Script';
-    margin-top: 60%;
-    margin-right: 10px;
-    margin-bottom: 51%;
-    text-align: center;
-}
-
 .logo-menu {
     width: 150px;
     margin-left: 18px;
@@ -198,6 +87,131 @@ h2 {
     display: flex;
     margin-left: 0%;
 }
+
+header {
+    background: linear-gradient(to bottom, #f08, #90c);
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 14%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 0), rgb(255, 5, 5));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main {
+    margin-left: 14%;
+    display: flex;
+}
+
+#main-1 {
+    position: relative;
+    margin-bottom: 5%;
+}
+
+#main-2 .img-home {
+    width: 50%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 1;
+    position: absolute;
+}
+
+.img-home:first-child {
+    opacity: 2;
+}
+
+.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+h2 {
+    color: #f10bb8;
+    font-size: 38px;
+    font-weight: 200;
+    margin-left: 30px;
+    font-family: 'Dancing Script';
+    margin-top: 60%;
+    margin-right: 10px;
+    margin-bottom: 51%;
+    text-align: center;
+}
+
+#myJob {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 {
+    display: flex;
+    margin-left: 14%;
+}
+
+#cabine {
+   
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+#ourService {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: linear-gradient(to right, rgb(197, 17, 182), rgb(255, 255, 0), rgb(255, 5, 5));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.box-2 {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-left: 14%;
+    margin-top: -20%;
+    padding: 20px;
+}
+
+.valores-1 {
+    background-color: #90c;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.valores-2 {
+    background-color: rgb(184, 204, 0);
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.valores-3 {
+    background-color: rgb(204, 82, 0);
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+
+
+
+
 
 footer {
     bottom: 0;
