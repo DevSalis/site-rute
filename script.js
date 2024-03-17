@@ -1,14 +1,12 @@
-// script.js
-// script.js
 
 document.addEventListener('DOMContentLoaded', function () {
     const images = document.querySelectorAll('.img-home');
     let currentIndex = 0;
 
     function nextImage() {
-        images[currentIndex].style.opacity = 0; // Esconde a imagem atual
+        images[currentIndex].style.opacity = 0;
         currentIndex = (currentIndex + 1) % images.length;
-        images[currentIndex].style.opacity = 1; // Mostra a próxima imagem
+        images[currentIndex].style.opacity = 1;
     }
 
     setInterval(nextImage, 5000);
