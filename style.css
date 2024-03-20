@@ -156,7 +156,9 @@ h2 {
     width: 100%;
     object-fit: cover;
     opacity: 0.4;
+    
 }
+
 
 #ourService {
     position: absolute;
@@ -252,8 +254,46 @@ span {
 
 .valores-diversos {
     color: rgb(255, 255, 255);
-   
 }
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    gap: 40px;
+}
+
+#box-slide {
+    margin-left: 14%;
+    margin-top: 18%;
+}
+
+#our-portfolio {
+    display: inline;
+    margin-left: 24%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: linear-gradient(to right, rgb(197, 17, 182), rgb(255, 255, 0), rgb(255, 5, 5));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+#box-slide-carrossel {
+    display: inline-flex;
+    gap: 15px;
+}
+
+.imgs-portfolio {
+    width: 350px;
+    
+}
+
+
 
 
 
