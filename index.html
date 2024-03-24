@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Heebo:wght@300;400&display=swap"
         rel="stylesheet">
-    
+
     <title>Poly - Nails designer</title>
 </head>
 
@@ -126,13 +126,15 @@
         </div>
 
     </section>
-   
+
     <section class="portfolio">
         <div id="box-slide">
             <h2 id="our-portfolio">NOSSO PORTFÓLIO</h2>
         </div>
-        
-        
+
+        <div id="slide">
+            <button class="setas" id="prevBtn">&#10094;</button>
+
             <div id="box-slide-carrossel">
                 <img class="imgs-portfolio" src="./assets/portfólio-1.png" alt="Projeto 1">
                 <img class="imgs-portfolio" src="./assets/portfólio-2.png" alt="Projeto 2">
@@ -141,11 +143,14 @@
                 <img class="imgs-portfolio" src="./assets/portfólio-5.png" alt="Projeto 5">
                 <img class="imgs-portfolio" src="./assets/portfólio-6.png" alt="Projeto 6">
             </div>
-       
-       
+
+            <button class="setas" id="nextBtn">&#10095;</button>
+        </div>
+
+
     </section>
-    
-    
+
+
 
     <section id="about" class="about-us">
         <div>
@@ -175,6 +180,15 @@
     <footer>
         <a href="#home">Voltar ao Topo</a>
     </footer>
+
+    <form class="to-form" action="https://formsubmit.co/philip.cost@hotmail.com" method="POST">
+        FALE CONOSCO
+        <input placeholder="Nome" type="text" name="name" required>
+        <input placeholder="E-mail" type="email" name="email" required>
+        <input placeholder="Fone (00)0-0000-0000" type="tel" name="tel">
+        <textarea type="text" placeholder="Em que podemos ajudar?" name="info"></textarea>
+        <button type="submit" class="button-form" onclick="exitForm(), sondEnter()">ENVIAR</button>
+    </form>
 
     <script src="./script.js"></script>
 </body>

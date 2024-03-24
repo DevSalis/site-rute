@@ -259,7 +259,7 @@ span {
 .portfolio {
     display: flex;
     flex-direction: column;
-    margin-left: 14%;
+    margin-left: 13.5%;
     gap: 40px;
 }
 
@@ -281,6 +281,15 @@ span {
     font-size: 35px;
 }
 
+#slide {
+    display: flex;
+    gap: 10px;
+}
+
+.setas {
+    margin-top: auto;
+}
+
 
 
 #box-slide-carrossel {
@@ -289,8 +298,7 @@ span {
 }
 
 .imgs-portfolio {
-    width: 350px;
-    
+    width: 340px;
 }
 
 
