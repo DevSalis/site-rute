@@ -156,7 +156,7 @@ h2 {
     width: 100%;
     object-fit: cover;
     opacity: 0.4;
-    
+
 }
 
 
@@ -284,24 +284,44 @@ span {
 #slide {
     display: flex;
     gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    overflow: hidden;
+   
 }
 
 .setas {
     margin-top: auto;
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
 }
 
 
 
 #box-slide-carrossel {
-    display: inline-flex;
     gap: 15px;
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    
 }
 
 .imgs-portfolio {
+    flex: 0 0 auto;
     width: 340px;
+    transition: transform 0.5s ease;
+   
 }
 
+#prevBtn {
+    left: 14%;
+   
+}
 
+#nextBtn {
+    right: 0;
+}
 
 
 
