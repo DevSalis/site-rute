@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     let currentIndex = 0;
     const images = document.querySelectorAll('.imgs-portfolio');
-    const imageWidth = document.querySelector('.imgs-portfolio').clientWidth; // Largura de uma imagem
+    const imageWidth = document.querySelector('.imgs-portfolio').clientWidth;
     const boxSlideCarrossel = document.getElementById('box-slide-carrossel');
 
     const updateCarousel = () => {
