@@ -321,13 +321,16 @@ span {
     background-color: burlywood;
     display: flex;
     margin-left: 14%;
-
-    flex-direction: column;
     margin-top: 9%;
+    justify-content: flex-end; 
 }
 
 #sobre-caixa-1 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    gap: 25px;
 }
 
 #title-quem-somos {
@@ -341,12 +344,6 @@ span {
     margin: 0;
 }
 
-#sobre-caixa-2 {
-    display: flex;
-    
- 
-}
-
 #paragrafoQuemSomos {
     color: #ffff;
     font-size: 38px;
@@ -354,10 +351,8 @@ span {
     margin: 0;
 }
 
-#img-quem-somos {
-    width: 30%;
-    
- 
+#img-quem-somos {  
+    width: 40%;   
 }
 
 
