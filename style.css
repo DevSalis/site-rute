@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-    
+
     background-color: rgb(131, 3, 67);
 }
 
@@ -349,7 +349,6 @@ span {
     font-size: 35px;
     padding: 0;
     margin: 0;
-
 }
 
 #paragrafoQuemSomos {
@@ -360,12 +359,52 @@ span {
     width: 60%;
     margin-left: -5%;
     margin-top: 3%;
-
 }
 
 #img-quem-somos {
     width: 40%;
 }
+
+#appointment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#title-agendamento {
+    display: inline;
+    margin-left: 24%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: linear-gradient(to right, rgb(197, 17, 182), rgb(255, 255, 0), rgb(255, 5, 5));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+#paragrafo-agendamento {
+    color: #0a0a0a;
+    font-size: 24px;
+    font-family: 'Dancing Script';
+    width: 60%; 
+}
+
+.icons-agenda {
+    display: flex;
+    margin-left: 14%;
+}
+
+.icones-agendamento {
+    width: 30%;
+}
+
+
 
 
 
