@@ -359,6 +359,7 @@ span {
     width: 60%;
     margin-left: -5%;
     margin-top: 3%;
+
 }
 
 #img-quem-somos {
@@ -367,16 +368,20 @@ span {
 
 #appointment {
     display: flex;
-    flex-direction: column;
     margin-left: 14%;
+}
+
+.appointment-box-1 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
+    position: relative;
+    margin-top: 5%;
+    gap: 5%;
 }
 
 #title-agendamento {
     display: inline;
-    margin-left: 24%;
-    transform: translate(-50%, -50%);
     z-index: 1;
     background-image: linear-gradient(to right, rgb(197, 17, 182), rgb(255, 255, 0), rgb(255, 5, 5));
     background-clip: text;
@@ -386,22 +391,28 @@ span {
     font-size: 35px;
     padding: 0;
     margin: 0;
+
 }
 
 #paragrafo-agendamento {
-    color: #0a0a0a;
+    color: #f10bb8;
     font-size: 24px;
     font-family: 'Dancing Script';
-    width: 60%; 
+    text-align: center;
+    margin-left: 5%;
 }
 
 .icons-agenda {
     display: flex;
-    margin-left: 14%;
+    position: relative;
 }
 
 .icones-agendamento {
     width: 30%;
+}
+
+#imgCalendario {
+    width: 50%;
 }
 
 
