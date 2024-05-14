@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Heebo:wght@300;400&display=swap"
         rel="stylesheet">
-
+       
     <title>Poly - Nails designer</title>
 </head>
 
@@ -34,7 +34,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#myJob">Serviços</a></li>
-                <li><a href="#our-portfolio">Portfólio</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#about">Quem somos</a></li>
                 <li><a href="#space">Nosso espaço</a></li>
                 <li><a href="#contact">Como chegar</a></li>
@@ -124,12 +124,11 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div id="box-slide">
-            <h2 id="our-portfolio">NOSSO PORTFÓLIO</h2>
-        </div>
-
-        <div id="slide">
+    <section id="portfolio">
+        <h2 id="h2-portfolio">NOSSO PORTFÓLIO</h2>
+        <div class="carousel-container">
+            <button class="setas" id="prevBtn">&#10094;</button>
+           
             <div id="box-slide-carrossel">
                 <img class="imgs-portfolio" src="./assets/portfólio-1.png" alt="Projeto 1">
                 <img class="imgs-portfolio" src="./assets/portfólio-2.png" alt="Projeto 2">
@@ -144,7 +143,7 @@
                 <img class="imgs-portfolio" src="./assets/portfólio-11.png" alt="Projeto 5">
                 <img class="imgs-portfolio" src="./assets/portfólio-12.png" alt="Projeto 6">
             </div>
-            <button class="setas" id="prevBtn">&#10094;</button>
+            
             <button class="setas" id="nextBtn">&#10095;</button>
         </div>
     </section>
@@ -184,23 +183,25 @@
     </section>
 
     <section id="appointment">
-        
+
         <div class="appointment-box-1">
             <h2 id="title-agendamento">Agende seu horario</h2>
 
             <p id="paragrafo-agendamento">Siga nosso instagram, acompanhe minha rotina de trabalho atraves dos story,
                 conheça outros modelos de arte em nosso feed, deixe um comentario,
-                ou agende seu horario atravez do directe, ou se preferir, me chama no whatsapp.
+                ou agende seu horario atravez do directe, ou se preferir, me chama no whatsApp.
             </p>
-    
+
             <div class="icons-agenda">
-                <a href="https://www.instagram.com/polly_nails.designer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <a
+                    href="https://www.instagram.com/polly_nails.designer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <img src="./assets/logo-instagram.png" class="icones-agendamento" alt="icone-instagram"></a>
                 <a href="https://api.whatsapp.com/send?phone=+5581987221095&text=Olá Rute, acabei de conhecer SEU SITE e queria informações sobre serviços e Agendamento"
-                    target="_blank"> <img class="icones-agendamento" src="./assets/img-logo-whatsapp.png" alt="icone-whatsapp"></a>
+                    target="_blank"> <img class="icones-agendamento" src="./assets/img-logo-whatsapp.png"
+                        alt="icone-whatsapp"></a>
             </div>
         </div>
-        
+
         <img id="imgCalendario" src="./assets/calendario PLN e esmalte.png" alt="imagem-calendario-de-mesa">
     </section>
 
@@ -216,8 +217,12 @@
         <textarea type="text" placeholder="Em que podemos ajudar?" name="info"></textarea>
         <button type="submit" class="button-form" onclick="exitForm(), sondEnter()">ENVIAR</button>
     </form>
-
     <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+        
+    </script>
+    
+
 </body>
 
 

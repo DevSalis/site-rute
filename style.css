@@ -127,7 +127,7 @@ main {
 }
 
 .img-home:first-child {
-    opacity: 2;
+    opacity: 1;
 }
 
 .active {
@@ -262,66 +262,89 @@ span {
     color: rgb(255, 255, 255);
 }
 
-.portfolio {
+#portfolio {
     display: flex;
     flex-direction: column;
-    margin-left: 13.5%;
-    gap: 40px;
-}
-
-#box-slide {
+    align-items: center;
     margin-left: 14%;
-    margin-top: 18%;
 }
 
-#our-portfolio {
-    display: inline;
-    margin-left: 24%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    background-image: linear-gradient(to right, rgb(197, 17, 182), rgb(255, 255, 0), rgb(255, 5, 5));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+#h2-portfolio {
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
     font-size: 35px;
+    margin: 0 auto;
 }
 
-#slide {
-    display: flex;
-    gap: 10px;
-    overflow: hidden;
-    align-items: center;
-    overflow: hidden;
+.carousel-container {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
 }
 
 .setas {
-    margin-top: auto;
     cursor: pointer;
-    position: absolute;
     width: 20px;
-}
-
-#box-slide-carrossel {
-    gap: 15px;
-    display: flex;
-    transition: transform 0.5s ease;
-    will-change: transform;
-}
-
-.imgs-portfolio {
-    flex: 0 0 auto;
-    width: 340px;
-    transition: transform 0.5s ease;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #prevBtn {
-    left: 14%;
+    left: 0;
 }
 
 #nextBtn {
     right: 0;
 }
+
+#box-slide-carrossel {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    width: 90%;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.imgs-portfolio {
+    width: 10px;
+    flex: 0 0 calc(100% / 3);
+}
+
+.imgs-portfolio.slide-out-left {
+    animation: slideOutLeft 0.1s ease forwards;
+}
+
+.imgs-portfolio.slide-out-right {
+    animation: slideOutRight 0.1s ease forwards;
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+
 
 #about {
     background-color: rgb(210, 214, 157);
