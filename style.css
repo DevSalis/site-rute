@@ -92,6 +92,7 @@ button:hover {
     width: 200px;
     display: flex;
     margin-left: 0%;
+    margin-top: 24px;
 }
 
 header {
@@ -392,6 +393,7 @@ span {
 #appointment {
     display: flex;
     margin-left: 14%;
+    background: linear-gradient(to right, rgb(214, 207, 169), rgb(252, 251, 251));
 }
 
 .appointment-box-1 {
@@ -399,8 +401,8 @@ span {
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 5%;
     gap: 5%;
+    top: 25%;
 }
 
 #title-agendamento {
@@ -423,11 +425,13 @@ span {
     font-family: 'Dancing Script';
     text-align: center;
     margin-left: 5%;
+    font-weight: bold;
 }
 
 .icons-agenda {
     display: flex;
     position: relative;
+    text-align: center;
 }
 
 .icones-agendamento {
@@ -436,6 +440,8 @@ span {
 
 #imgCalendario {
     width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
