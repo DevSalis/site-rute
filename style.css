@@ -437,8 +437,12 @@ span {
 
 .icons-agenda {
     display: flex;
-    position: relative;
     text-align: center;
+    gap: 10px; 
+}
+
+.icons-agenda a {
+    margin: 0; /* Remove a margem padrão dos links */
 }
 
 .icones-agendamento {
