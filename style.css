@@ -423,7 +423,6 @@ span {
     font-size: 35px;
     padding: 0;
     margin: 0;
-
 }
 
 #paragrafo-agendamento {
@@ -435,25 +434,24 @@ span {
     font-weight: bold;
 }
 
-.icons-agenda {
+.social-container {
     display: flex;
-    text-align: center;
-    gap: 10px; 
-}
-
-.icons-agenda a {
-    margin: 0; /* Remove a margem padrão dos links */
-}
-
-.icones-agendamento {
     width: 30%;
+    gap: 20px;
 }
+
+.social-container img{
+    width: 90%;
+}
+
 
 #imgCalendario {
     width: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+
 
 
 
